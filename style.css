@@ -1,0 +1,33 @@
+body {
+  background-image: url(http://www.planwallpaper.com/static/images/abstract-wallpaper-20.jpg);
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%),
+  url(http://www.planwallpaper.com/static/images/abstract-wallpaper-20.jpg);
+}
+
+h1 {
+  font-family: Georgia, serif;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  border-bottom: solid 1px white;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+li {
+  border: 1px solid #ccc;
+  background: #eee;
+  padding: 10px 10px;
+  color: #000;
+  text-align: center;
+}
+
+ul {
+  display: table;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  width: 500px;
+}
